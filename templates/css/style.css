@@ -1,0 +1,278 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styling */
+.header-container {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.main-title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.title {
+    color: #ff6347;
+}
+
+.title a{
+    text-decoration: none;
+    color: #ff6347;
+}
+
+/* Navbar Styling */
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.nav-bar li {
+    margin-right: 20px;
+}
+
+.nav-bar li:last-child {
+    margin-right: 0;
+}
+
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+
+.nav-bar a:hover {
+    color: #ff6347;
+}
+
+/* Main Section Styling */
+.main-container {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.main-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.main-container p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Footer Styling */
+.footer-container {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.author {
+    color: #f4f4f4;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.author a {
+    color: #f4f4f4;
+    text-decoration: none;
+}
+
+.author a:hover {
+    color: #ff6347;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-bar ul {
+        flex-direction: column;
+    }
+
+    .nav-bar li {
+        margin-bottom: 10px;
+    }
+
+    .nav-bar li:last-child {
+        margin-bottom: 0;
+    }
+
+    .main-container {
+        padding: 20px;
+    }
+}
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styling */
+.header-container {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.main-title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.title {
+    color: #ff6347;
+}
+
+/* Login Form Styling */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.login-form {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.login-form h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.input-group input:focus {
+    border-color: #ff6347;
+    outline: none;
+}
+
+.button-group {
+    margin-top: 20px;
+}
+
+.button-group button {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button-group button:hover {
+    background-color: #e5533d;
+}
+
+.register-link {
+    margin-top: 20px;
+}
+
+.register-link a {
+    color: #ff6347;
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
+
+.login-link {
+    margin-top: 20px;
+}
+
+.login-link a {
+    color: #ff6347;
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styling */
+.footer-container {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .login-form {
+        padding: 20px;
+    }
+    
+    .login-form h2 {
+        font-size: 1.5rem;
+    }
+    
+    .input-group input {
+        font-size: 1rem;
+    }
+    
+    .button-group button {
+        font-size: 1rem;
+    }
+}
