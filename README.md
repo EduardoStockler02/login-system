@@ -18,11 +18,11 @@ A basic login system to learn more about API's
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/EduardoStockler1/LoginSystem.git
+git clone https://github.com/EduardoStockler02/login-system.git
 cd LoginSystem
 ```
 
-### 1. Clone the repository
+### 2. Install dependencies
 ```bash
 npm-install
 ```
