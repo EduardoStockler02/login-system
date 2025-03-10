@@ -20,20 +20,23 @@ A basic login system to learn more about API's
 ```bash
 git clone https://github.com/seu-usuario/nome-do-repositorio.git
 cd repository-name
+```
 
 ### 1. Clone the repository
 ```bash
 npm-install
+```
 
 ### 3. Set-up the Environment Variables
 Create a .env file in the root of the project and add the required variables:
 
 ```ini
 PORT=3000
-
+```
 ### 4. Run the Backend
 ```bash
 node backend/server.js
+```
 
 ### 5. Run the Frontend
 Open the frontend/register.html file directly in your browser to test.
